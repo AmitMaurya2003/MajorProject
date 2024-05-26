@@ -21,6 +21,15 @@
     padding: 0.5rem 3rem 0.5rem 3rem;
     font-size: 1rem;
   }
+
+  @media (max-width:1000px){
+         #navbarNavAltMarkup {
+          background-color: rgb(47, 46, 46);
+         }
+         .nav-link {
+          color: #fff !important;
+         }
+      }
 </style>
 
 <nav class="navbar navbar-expand-lg bg-body-light border-bottom sticky-top">
@@ -30,7 +39,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
        
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div  class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
             <a class="nav-link" href="/listings">Explore</a>
         </div>
@@ -53,5 +62,6 @@
           <% } %>
       </div>
     </div>
+
 </div>
   </nav>
